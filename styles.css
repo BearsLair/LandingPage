@@ -139,3 +139,27 @@ div h2 {
 .information p {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color:#E5E7EB;
+}
+
+.quotetext {
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteauthor {
+    width: 50%;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+}
