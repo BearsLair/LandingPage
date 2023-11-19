@@ -52,9 +52,17 @@ h1 {
     color: #F9FAF8;
 }
 
-p {
+.header-image p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 50px;
+    background-color: #3882F6;
+    width: 400px;
+    height: 230px;
 }
 
 button {
@@ -84,12 +92,33 @@ div h2 {
     text-align: center;
 }
 
+.informationsection{
+    height: 50%;
+    width: 100%;
+}
+
 .information {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    height: 60%;
+    height: 200px;
     width: 100%;
 }
 
+.information > div {
+    height: 200px;
+    width: 200px;
+}
+
+.infoimage {
+    height: 100px;
+    width: 100px;
+    border-width: 10px;
+    border-color: #3882F6;
+    }
+
+#title-descriptor {
+    color: #E5E7EB;
+    font-size: 18px;
+}
