@@ -79,3 +79,17 @@ button {
     height: 250px;
     width: 500px;
 }
+
+div h2 {
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 60%;
+    width: 100%;
+}
+
