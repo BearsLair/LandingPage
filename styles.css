@@ -90,6 +90,9 @@ button {
 
 div h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .informationsection{
@@ -100,25 +103,39 @@ div h2 {
 .information {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     height: 200px;
     width: 100%;
 }
 
 .information > div {
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
     width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .infoimage {
-    height: 100px;
-    width: 100px;
-    border-width: 10px;
+    height: 150px;
+    width: 150px;
+    border-width: 3px;
     border-color: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
     }
 
 #title-descriptor {
     color: #E5E7EB;
     font-size: 18px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.information p {
+    text-align: center;
 }
